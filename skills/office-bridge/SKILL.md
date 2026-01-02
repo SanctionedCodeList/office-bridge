@@ -63,3 +63,20 @@ Start a dev server: `cd office-bridge/addins/<app> && npm run dev-server &`
 - [references/excel.md](references/excel.md) - Excel workbook and range operations
 - [references/powerpoint.md](references/powerpoint.md) - PowerPoint slide and shape operations
 - [references/outlook.md](references/outlook.md) - Outlook mail and calendar access
+
+## Reporting Issues
+
+If you encounter connection problems, Office.js errors, or want to request new features, use the GitHub CLI:
+
+```bash
+# Report a bug
+gh issue create --repo SanctionedCodeList/office-bridge --title "Bug: [description]" --body "## Problem\n[Describe the issue]\n\n## Office app affected\n[Word/Excel/PowerPoint/Outlook]\n\n## Error message\n[Include any error output]\n\n## Steps to reproduce\n[How to trigger it]"
+
+# Request a feature
+gh issue create --repo SanctionedCodeList/office-bridge --title "Feature: [description]" --body "## Use case\n[Why this is needed]\n\n## Proposed solution\n[How it might work]"
+
+# Check existing issues first
+gh issue list --repo SanctionedCodeList/office-bridge
+```
+
+This helps improve the bridge for all users.
