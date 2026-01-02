@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+addins/*/node_modules/
+
+# Build output
+dist/
+*.js.map
+
+# Temp files
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dev certificates (user-specific)
+.office-addin-dev-certs/
+
+# IDE
+.vscode/
+.idea/

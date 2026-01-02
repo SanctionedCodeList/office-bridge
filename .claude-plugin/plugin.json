@@ -1,0 +1,8 @@
+{
+  "name": "office-bridge",
+  "description": "Connect Claude Code to Microsoft Office apps (Word, Excel, PowerPoint, Outlook) via add-ins for live document manipulation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Parker Hancock"
+  }
+}
